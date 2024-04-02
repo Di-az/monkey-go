@@ -9,3 +9,5 @@ Begin of **105**/254
 
 ### Completed
 - [x] 1. Lexing - 09/Jul
+- [x] 2. Parsing - 20/Feb
+- [ ] 3. Evaluation - WIP
