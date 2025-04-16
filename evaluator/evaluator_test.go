@@ -294,7 +294,7 @@ let newAdder = fn(x) {
 };
 
 let addTwo = newAdder(2);
-addTwo(1);
+addTwo(2);
     `
 
 	testIntegerObject(t, testEval(input), 4)
