@@ -53,6 +53,8 @@ type String struct {
 	Value string
 }
 
+type BuiltinFunction func(args ...Object) Object
+
 type Builtin struct {
 	Fn BuiltinFunction
 }
