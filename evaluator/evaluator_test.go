@@ -420,7 +420,7 @@ func TestArrayIndexExpressions(t *testing.T) {
 		},
 		{
 			"let i=0; [1][i];",
-			3,
+			1,
 		},
 		{
 			"[1, 2, 3][1 + 1];",
